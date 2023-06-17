@@ -1,6 +1,7 @@
 body{
     margin-right: 150px;
     margin-left: 150px;
+    background-color: #1F2937;
 }
 ul{
     list-style-type: none;
@@ -12,6 +13,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #F9FAF8;
 }
 nav{
     display: flex;
@@ -23,7 +25,7 @@ nav{
     justify-content: center;   
 }
 .the-cat{
-    width: 100px;
+    width: 500px;
     height: auto;
 }
 .first-button{
@@ -39,12 +41,22 @@ nav{
 .first-slide{
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     
 }
 .next-to-cat-container{
-    max-width: 50%;
-    flex-wrap: wrap;
-}
+    max-width: 40%;
+    }   
 .cat-container{
     flex-grow: 1;
 }
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #F9FAF8;
+}
+
