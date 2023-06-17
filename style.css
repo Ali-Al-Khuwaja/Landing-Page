@@ -23,7 +23,7 @@ nav{
     justify-content: center;   
 }
 .the-cat{
-    width: 500px;
+    width: 100px;
     height: auto;
 }
 .first-button{
@@ -35,4 +35,16 @@ nav{
     border: none;
     border-radius: 8px;
     font-size: large;
+}
+.first-slide{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.next-to-cat-container{
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+.cat-container{
+    flex-grow: 1;
 }
