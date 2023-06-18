@@ -48,6 +48,8 @@ nav{
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: #F9FAF8;
+
 }
 .next-to-cat-container{
     max-width: 40%;
@@ -61,7 +63,6 @@ nav{
     color:#F9FAF8;
 }
 p{
-    color: #F9FAF8;
     margin: 0;
 }
 h1{
@@ -79,13 +80,21 @@ h1{
 }
 .card{
     border: 5px solid #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 15px;
+    text-align: center;
 
 }
 .content-photo-cards{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+}
+.inside-card-cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+
+
 }
