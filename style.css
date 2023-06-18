@@ -40,6 +40,7 @@ nav{
     border: none;
     border-radius: 8px;
     font-size: large;
+    margin-top: 20px;
 }
 .first-slide{
     display: flex;
@@ -54,16 +55,37 @@ nav{
 .cat-container{
     flex-grow: 1;
 }
-h1{
+.main-heading{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900    ;
     color:#F9FAF8;
 }
 p{
     color: #F9FAF8;
+    margin: 0;
 }
-
+h1{
+    margin: 0;
+}
 .side-margins{
     margin-right: 150px;
     margin-left: 150px;
+}
+.content-heading{
+    font-weight: bolder;
+    font-size: 26px;
+    color: #1F2937;
+    text-align: center;
+}
+.card{
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+
+}
+.content-photo-cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
