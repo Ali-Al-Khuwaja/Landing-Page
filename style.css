@@ -74,27 +74,38 @@ h1{
 }
 .content-heading{
     font-weight: bolder;
-    font-size: 26px;
+    font-size: 20px;
     color: #1F2937;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .card{
     border: 5px solid #3882F6;
     width: 200px;
     height: 200px;
     border-radius: 15px;
-    text-align: center;
-
 }
 .content-photo-cards{
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .inside-card-cat{
     width: 200px;
     height: 200px;
     border-radius: 9px;
-
-
+}
+.content-photo-cards-text{
+    margin-top: 20px;
+    color:gray;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.push-text-under{
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
 }
