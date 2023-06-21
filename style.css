@@ -123,3 +123,31 @@ h1{
     background-color: lightgray;
 
 }
+.ad-button{
+    border-radius: 18px;
+    font-size: medium;
+    background-color: #3882F6;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.ad-card{
+    display: flex;
+    justify-content: space-between ;
+    padding: 40px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 40px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 50px;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
