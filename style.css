@@ -109,3 +109,17 @@ h1{
     text-align: center;
     margin-bottom: 50px;
 }
+.qoute{
+    text-align: center;
+    padding: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.author{
+    text-align: end;
+    font-size: smaller;
+}
+.qoute-section{
+    background-color: lightgray;
+
+}
